@@ -1,4 +1,5 @@
 /* استيراد الخط */
+/*font*/
 @import url('https: //fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap');
 
 * {
@@ -8,7 +9,9 @@
     font-family: 'Fustat', sans-serif;
 }
 
-/* ستايل سكشن اللوقو */
+/* all nav style with hoover*/
+/*ستايل الناف كامل*/
+
 nav {
     position: absolute;
     top: 20px;
@@ -53,7 +56,7 @@ nav li a:hover {
     border-radius: 30px;
     transition: 0.5s;
 }
-
+/* logo style*/
 
 section .logo {
     position: absolute;
@@ -68,7 +71,8 @@ section .logo {
     text-transform: uppercase;
     cursor: pointer;
 }
-
+/*ستايل الفيديو*/
+/*video style*/
 section video.travel {
     position: absolute;
     top: 0;
@@ -79,7 +83,7 @@ section video.travel {
     display: block;
     z-index: -1;
 }
-
+/* الاوفرلاي */
 .overlay {
     position: absolute;
     top: 0;
@@ -88,8 +92,9 @@ section video.travel {
     height: 100vh;
     background: linear-gradient(to left, #DFD3C3, #84994F);
     opacity: 0.5;
-    /* z-index: 0; */
 }
+/* المنيو */
+/*  ممكن اضيف له مستقبلا*/
 
 .toggle {
     position: absolute;
@@ -105,7 +110,7 @@ section video.travel {
     cursor: pointer;
     z-index: 1001;
 }
-
+/*ايقونات السوشال */
 .icons {
     position: fixed;
     bottom: 20px;
@@ -132,6 +137,7 @@ section video.travel {
 .icons a:hover i{
     color: #73AF6F;          
 }
+/* ستايل الزر + النصوص */
 .text {
     position: absolute;
     left: 50%;
@@ -140,6 +146,7 @@ section video.travel {
     width: calc(100% - 32px);
     text-align: center;
     color: #E7DEAF;
+    
 }
 
 .text a {
@@ -158,6 +165,7 @@ section video.travel {
     color: #73AF6F;
     transform: translateY(-2px);
 }
+/* الفوتر */
 
 footer {
     position: fixed;
@@ -174,27 +182,3 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width: 420px) {
-    .icons {
-        flex-direction: column;
-        gap: 10px;
-        align-items: flex-end; /* keep column aligned to the right edge */
-/*
-    }
-} */
