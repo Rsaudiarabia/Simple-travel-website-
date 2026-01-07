@@ -182,3 +182,17 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+
+@media (max-width: 600px) {
+    nav ul li a {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .text a {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
